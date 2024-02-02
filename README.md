@@ -38,8 +38,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: (https://65bc49c3da9c211dd5bb542c--lively-dieffenbachia-884c34.netlify.app)
+- Solution URL: (https://github.com/alinco6426/quiz)
+- Live Site URL: (https://alinco6426.github.io/quiz)
 
 ## My process
 
