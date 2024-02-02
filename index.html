@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Frontend quiz app</title>
+</head>
+<body>
+
+  <header>
+    <h3 class="title-displayer"></h3>
+
+    <div class="theme-change-container">
+      <img class="icon-sun" src="assets/images/icon-sun-dark.svg" alt="icon-sun-light">
+
+      <label for="theme-changer" class="theme-changer-wrapper">
+        <input type="checkbox" id="theme-changer" class="theme-changer">
+        <span class="changer"></span>
+      </label>
+
+      <img class="icon-moon" src="assets/images/icon-moon-dark.svg" alt="icon-moon-light">
+    </div>
+  </header>
+
+  <main class="quiz-dashboard">
+      <section class="quiz-menu">
+        <div class="menu-message-container">
+          <h1 class="menu-message">
+            <span>Welcome to the</span>
+            <br>
+            <strong>Frontend Quiz!</strong>
+          </h1>
+          
+          <p><i>Pick a subject to get started.</i></p>
+        </div>
+      
+        <div class="menu-button-container">
+          <button class="start-quiz-btn" type="button">
+            <span class="icon-wrapper html-icon-wrapper"><img src="assets/images/icon-html.svg" alt="icon-html"></span>
+            <span class="title">HTML</span>
+          </button>
+          <button class="start-quiz-btn" type="button">
+            <span class="icon-wrapper css-icon-wrapper"><img src="assets/images/icon-css.svg" alt="icon-css"></span>
+            <span class="title">CSS</span>
+          </button>
+          <button class="start-quiz-btn" type="button">
+            <span class="icon-wrapper javascript-icon-wrapper"><img src="assets/images/icon-js.svg" alt="icon-js"></span>
+            <span class="title">JavaScript</span>
+          </button>
+          <button class="start-quiz-btn" type="button">
+            <span class="icon-wrapper accessibility-icon-wrapper"><img src="assets/images/icon-accessibility.svg" alt="icon-accessibility"></span>
+            <span class="title">Accessibility</span>
+          </button>
+        </div>
+      </section>
+  </main>
+ 
+</body>
+<script type="module" src="js/main.js"></script>
+<script type="module" src="js/render-question.js"></script>
+</html>
